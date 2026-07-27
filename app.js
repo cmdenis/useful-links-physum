@@ -1,7 +1,9 @@
 // Add a single pill to a row by id
 function addPill(rowId, pillContent) {
     const row = document.getElementById(rowId);
-    const pill = document.createElement('div');
+    const pillLink = document.createElement('a');
+    pillLink.href = pillContent.link
+    const pill = document.createElement('div')
     pill.className = 'pill';
 
     const pillTitle = document.createElement('div');
@@ -15,7 +17,8 @@ function addPill(rowId, pillContent) {
     pill.appendChild(pillDescription);
 
     // pill.innerHTML = pillTitle + ' <br> ' + pillDescription;
-    row.appendChild(pill);
+    pillLink.appendChild(pill)
+    row.appendChild(pillLink);
     return pill;
 }
 
@@ -40,12 +43,14 @@ addSection(
     '#b98fb1',
     [
         {
-            title: "Crochet et Tricot",
-            description: "Convo de groupe pour activité crochet et trico"
+            title: "Crochet et Tricot 🧶",
+            description: "Convo de groupe pour activité crochet et trico",
+            link: 'https://signal.group/#CjQKIERTHck1EhKtAyHi6-Nl81BhEmD7yywZf2J2gtAUj5hMEhB_LY1DH24SbkCGGmfLVY6U'
         }, 
         {
-            title: "JOULES",
-            description: "Convo de groupe pour les soirées de jeux de sociétés JOULES"
+            title: "JOULES 🎲",
+            description: "Convo de groupe pour les soirées de jeux de sociétés JOULES",
+            link: 'https://m.me/j/AbbNj_SAcdDR4IIl/?send_source=gc%3Acopy_invite_link_c'
         }
     ]
 );
@@ -56,11 +61,11 @@ addSection(
     '#8f94b9',
     [
         {
-            title: "PhySport",
+            title: "PhySport 🏃‍♀️‍➡️",
             description: "Activités sportives en physique"
         }, 
         {
-            title: "PhysAIR",
+            title: "PhysAIR ⛰️",
             description: "Activités de plein-air (rando, camping, etc.)"
         }
     ]
@@ -72,16 +77,31 @@ addSection(
     '#8fb9ac;',
     [
         {
-            title: "Convo CS",
-            description: "La convo pour les cycles supérieurs en physique"
+            title: "Convo CS 👵",
+            description: "La convo pour les cycles supérieurs en physique",
+            link: 'https://signal.group/#CjQKIOnEFcTFlsCqCwkL5NRUtj3wTI28GPXOmCxQqJlnmpAeEhBfAQZoGWhdCsCWXvFfP0oX'
         }, 
         {
-            title: "Club de Journal",
-            description: "Convo du club de lecture scientifique des cycles supérieurs en physique"
+            title: "Club de Journal 📰",
+            description: "Convo du club de lecture scientifique des cycles supérieurs en physique",
+            link: ''
         }, 
         {
-            title: "Franco-midis!",
+            title: "Franco-midis! 🇫🇷",
             description: "Come practice your spoken french at lunch",
+            link: 'https://signal.group/#CjQKIJS-TU1J1ZhGVQD5osqGtHFwvMaNfLkYFMth3NI2rbWzEhCVz_3SjKbHtNqGDoO5fsVB'
+        }
+    ]
+);
+
+addSection(
+    'Autres ⚙️', 
+    'autres-row', 
+    '#ec857a;',
+    [
+        {
+            title: "La Planck ☕",
+            description: "La convo pour les utilisateurs du café La Planck"
         }
     ]
 );

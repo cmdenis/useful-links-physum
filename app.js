@@ -66,7 +66,8 @@ addSection(
         }, 
         {
             title: "PhysAIR ⛰️",
-            description: "Activités de plein-air (rando, camping, etc.)"
+            description: "Activités de plein-air (rando, camping, etc.)",
+            link: 'https://m.me/j/AbZZW2BdAMYp97mz/?send_source=gc:copy_invite_link_c'
         }
     ]
 );

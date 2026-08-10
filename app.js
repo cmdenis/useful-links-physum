@@ -103,7 +103,8 @@ addSection(
     [
         {
             title: "La Planck ☕",
-            description: "La convo pour les utilisateurs du café La Planck"
+            description: "La convo pour les utilisateurs du café La Planck",
+            link: "https://m.me/j/AbbTh5cE2IQDc84I/?send_source=gc:copy_invite_link_c"
         }
     ]
 );

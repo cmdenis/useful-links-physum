@@ -62,7 +62,8 @@ addSection(
     [
         {
             title: "PhySport 🏃‍♀️‍➡️",
-            description: "Activités sportives en physique"
+            description: "Activités sportives en physique",
+            link: 'https://m.me/j/AbYeYK_GRMnBBkpg/?send_source=gc:copy_invite_link_c'
         }, 
         {
             title: "PhysAIR ⛰️",
@@ -85,7 +86,7 @@ addSection(
         {
             title: "Club de Journal 📰",
             description: "Convo du club de lecture scientifique des cycles supérieurs en physique",
-            link: ''
+            link: 'https://signal.group/#CjQKIPkPudn9GZMc4gv55PE_QsNDxsg6QYZel3KNL5yXoce2EhD3sJcarM_Hc10LYlPSCwKs'
         }, 
         {
             title: "Franco-midis! 🇫🇷",

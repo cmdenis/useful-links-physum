@@ -51,6 +51,11 @@ addSection(
             title: "JOULES 🎲",
             description: "Convo de groupe pour les soirées de jeux de sociétés JOULES",
             link: 'https://m.me/j/AbbNj_SAcdDR4IIl/?send_source=gc%3Acopy_invite_link_c'
+        },
+        {
+            title: "Bols et bolles 🚽",
+            description: "Convo de groupe pour l'équipe de physique bols et bolles!",
+            link: 'https://m.me/j/AUM5Ozi5wxZw347r/?send_source=gc:copy_invite_link_c'
         }
     ]
 );
@@ -97,14 +102,42 @@ addSection(
 );
 
 addSection(
-    'Autres ⚙️', 
-    'autres-row', 
-    '#ec857a;',
+    'Espaces partagés 🏢', 
+    'espaces-row', 
+    '#9cd4d7;',
     [
+        {
+            title: "Comité Local 🛋️",
+            description: "La convo pour le local de la PHYSUM",
+            link: ""
+        },
         {
             title: "La Planck ☕",
             description: "La convo pour les utilisateurs du café La Planck",
             link: "https://m.me/j/AbbTh5cE2IQDc84I/?send_source=gc:copy_invite_link_c"
+        }
+    ]
+);
+
+addSection(
+    'Autres 📌', 
+    'autres-row', 
+    '#ec857a;',
+    [
+        {
+            title: "AstroPhy 💫",
+            description: "Convo du comité d'astro-physique",
+            link: ""
+        },
+        {
+            title: "Comité Environnement 🌱",
+            description: "L’environnement et la planète te tiennent à cœur?",
+            link: "https://m.me/j/AbbTaou3g9VZaLkd/?send_source=gc:copy_invite_link_c"
+        },
+        {
+            title: "Comité Mob ✊",
+            description: "Convo du comité de mobilisation",
+            link: "https://signal.group/#CjQKIGthMUP0FwBXSU2ixJT7CPhd6TxSYBaNe-YLDCpkFoCWEhA8c6VLO582Id0Y5L97JJYZ"
         }
     ]
 );
